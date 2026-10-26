@@ -1,0 +1,2 @@
+Upstream: https://github.com/lharries/whatsapp-mcp
+Version strategy: clone default branch at first installation; record and review the installed commit with git -C vendor/whatsapp-mcp rev-parse HEAD. Pin a vetted commit before production use.
