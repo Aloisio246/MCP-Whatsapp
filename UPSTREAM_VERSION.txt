@@ -1,2 +1,4 @@
 Upstream: https://github.com/lharries/whatsapp-mcp
-Version strategy: clone default branch at first installation; record and review the installed commit with git -C vendor/whatsapp-mcp rev-parse HEAD. Pin a vetted commit before production use.
+Pinned commit: 7d6a06dcdce1f01dfb24f60e1030d5efba9f3b88
+Local compatibility patch: patches/whatsapp-mcp-local.patch
+whatsmeow: v0.0.0-20261116172437-19d61352436f
